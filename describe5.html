@@ -1,0 +1,589 @@
+<html>
+<head>
+<title>
+J&K</title>
+<link rel="shortcut icon" href="user.png" type="image/png" style="border-radius:10px;">
+<link rel="stylesheet" href="index.css"><div class="grid-container">
+		<div class="frame1">
+		</div>
+		
+		<div class="topnav">
+		  <a href="index.html"><i class="fa fa-home" style="font-size: 24px; margin-left:0px;color:black;"></i> Home</a>
+		  <a href="shop.html" class="active1"><i class="fa fa-shopping-bag" style="font-size:22px; margin-left:0px;color:black;"></i> Shop</a>
+		  <a href="about.html"><i class="fa fa-address-book" style="font-size: 22px; margin-left:0px;color:black;"></i> About us</a>
+		  <a href="privacy.html"><i class="fa fa-lock" style="font-size: 24px; margin-left:0px;color:black;"></i> Privacy policy</a>
+		  <a href="contact.html"><i class="fa fa-phone" style="font-size: 22px; margin-left:0px;color:black;"></i> Contact Us</a>
+		  <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size: 25px; margin-left:0px;color:black;"></i> Cart</a>
+		  <a href="faqs.html"><i class="fa fa-question" style="font-size: 22px; margin-left:0px;color:black;"></i> FAQs</a>
+		  
+		</div>
+
+		<div class="frame2" align="right">
+
+		<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-telegram" href="https://t.me/"><i class="fa fa-telegram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		 <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/"><i class="fa fa-linkedin" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-snapchat" href="https://www.snapchat.com/add/"><i class="fa fa-snapchat" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/"><i class="fa fa-twitter" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+		
+		<br>
+		<i class="fa fa-phone" style="font-size: 19px; margin: 3px; color:black;"><font style="font-family:verdana">Helpline No:180-0124-3234-32</font></i>
+
+		<br>
+		<a href="#"><i class="fa fa-envelope" style="font-size: 19px; margin: 3px;color:black;"><font style="font-family:verdana">khushboo2020@jk.com</font></i></a>
+		
+		
+		<script src="https://use.fontawesome.com/5f877ec309.js"></script>
+		</div>
+	</div>
+	
+<style media="screen">
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  height:1100px;
+}
+body{
+  background: white;
+}
+.thumbs{
+  width: 5%;
+  height: 300px;
+  margin-top: 10px;
+    float: left;
+}
+.thumbs img{
+  width:40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.thumbs img:hover{
+  box-shadow: 0 0 10px red;
+}
+.main-lightbox{
+  width: 30%;
+  height: 500px;
+  float: left;
+}
+.lightbox img{
+  width:200px;
+  height: 405px;
+}
+.lightbox{
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+
+}
+.lightbox:target{
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+}
+#lightbox1 img{
+  height: 450px;
+  width:350px;
+  margin-left: 0px;
+  margin-top: -50px;
+
+}
+#lightbox2 img{
+  height: 450px;
+  width: 350px;
+  margin-top: -50px;
+
+}
+#lightbox3 img{
+  height: 450px;
+  width: 350px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+#lightbox4 img{
+  height: 450px;
+  width: 350px;
+  margin-top: -50px;
+}
+#lightbox5 img{
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+}
+.description{
+  width: 42%;
+  height: 600px;
+  float:left;
+  margin-left: 40px;
+}
+.buy_add{
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  margin-top:475px;
+  margin-left: 7px;
+}
+.buy{
+  width:240px;
+  height: 55px;
+  background: orange;
+  color:white;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Arial";
+  outline: none;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.gap{
+  height: 95px;
+  width: 100%;background: white;
+}
+.adds{
+  float: right;
+  width: 20%;
+  height: 1100px;
+  margin-top: -600px;
+}
+.des-rem{
+  float:left;
+  width: 80%;
+  height: 500px;
+  background: white;
+}
+.ad1{
+  height: 20px;
+  margin-bottom:20px;
+  width: 130px;
+}
+.ad1 p{
+  width: auto;
+  padding:5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.ad2 img{
+  height: 300px;
+  width: 270px;
+  margin-top: -5px;
+}
+.ad3 img{
+  height: 300px;
+  width: 270px;
+  margin-top: -5px;
+}
+.ad4 img{
+  height: 300px;
+  width: 270px;
+}
+.description p{
+  font-size: 14px;
+  padding-top: 5px;
+}
+.description .h2{
+  font-family: "Britannic Bold";
+  width: 550px;
+  font-size:20px;
+  font-weight: normal;
+}
+#pincode:focus{
+  outline: none;
+}
+#des-lists
+{
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: -3px;
+}
+#des-lists li{
+  padding-top: 10px;
+}
+.product-table{
+  width: 90%;
+  height: 400px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  box-shadow: 0 5px 10px black;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.product-table th{
+  width: 200px;
+  background: lightgrey;
+}
+.product-table td{
+  border-right: 1px solid black;
+}
+.product-table td,th{
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+</style>
+
+  </head>
+  <body onload="document.getElementById('no').value = 1;">
+    <div class="wrapper" id="div_mains">
+      <div class="thumbs">
+        <a href=#lightbox1> <img src="product52/first.jpg" alt="first"> </a>
+         <a href=#lightbox2> <img src="product52/second.jpg" alt="second"> </a>
+      <a href=#lightbox3> <img src="product52/third.jpg" alt="third"> </a>
+        <a href=#lightbox4> <img src="product52/fourth.jpg" alt="fourth"> </a>
+      </div>
+      <p style="font-size:16px;font-weight:bolder;margin:40px 0 0 120px;position:absolute;z-index:1;">Click on the image for fullscreen view</p>
+      <div class="main-lightbox">
+      <div class="lightbox" id=lightbox1>
+        <a href="product52/first.jpg"><div class="gap">
+        </div>  <img src="product52/first.jpg" alt="This is image 1" ></a>
+      </div>
+      <div class="lightbox" id=lightbox2>
+        <a href="product52/second.jpg"> <div class="gap">
+        </div><img src="product52/second.jpg" alt="This is image 2" ></a>
+      </div>
+      <div class="lightbox" id=lightbox3>
+        <a href="product52/third.jpg"><div class="gap">
+        </div>  <img src="product52/third.jpg" alt="This is image 3" ></a>
+      </div>
+      <div class="lightbox" id=lightbox4>
+        <a href="product52/fourth.jpg"> <div class="gap">
+        </div> <img src="product52/fourth.jpg" alt="This is image 4" ></a>
+      </div>
+      <div class="lightbox" id=lightbox5>
+        <a href="product52/fifth.jpg"><div class="gap">
+        </div>
+           <img src="product52/fifth.jpg" alt="This is image 5" ></a>
+      </div>
+      </div>
+
+      <div class="description">
+        <p class=h2 id=pr_name style="font-family:'Britannic Bold';">AJ Dezines Kids Party Wear Shirt Jeans and Jacket Clothing Set for Boys</p>
+        <div class="rating">
+          <a style="font-size:13px;margin-left:30px;">Average user Rating</a> <a href="#" style="font-size:13px;padding:2px;background:white;color:black">
+            3.7<i class="fa fa-star"></i></a>
+        </div>
+        <div style="clear:both;padding-top:5px;width:90%;margin:0px 0px 10px 10px;" class="hr">
+  <hr style="display:block;height:1px;border:none;background:grey;"/ >
+        </div>
+        <div class="price">
+          <p style="color:grey; padding-left:20px;">M.R.P.: <del>₹1999.00</del></p>
+            <p style="padding-left:25px;">Price : ₹ <span style="color:#BE051B;font-size:18px;" id=pr_price>999.00</span> </p>
+            <p>You save : ₹ <span style="color:#BE051B;font-size:14px;" id=pr_saving>1000.00</span>(32%)<br>
+              <span style="font-size:12px;padding-left:65px;">Inclusive of all taxes</span></p>
+              <p style="margin-top:20px;">Eligible for <b>Cash on delievery</b></p>
+              <p style="margin-top:10px;">Not eligible for EMI. No Cost EMI available if you checkout only with this item.</p>
+              <p style="color:#08B618;font-size:20px;margin-top:5px;">In Stock</p>
+              <p style="margin-top:10px;"><b>Delivery </b><span style="color:blue;"></span>
+             <span style="width:100px;border-bottom:2px solid blue;margin-left:80px;">
+              <input id=pincode style="width:100px;border:none;margin-top:-8px;border-bottom:2px solid blue;padding:10px;font-size:18px;"
+               type=text placeholder=pincode maxlength="6"></span>
+               <script type="text/javascript">
+                 function pcode()
+                 {
+                   document.getElementById('pincode').style.borderColor = "blue";
+                    document.getElementById('pcode').style.opacity = "1";
+                    var a = document.getElementById('pincode').value;
+                    document.getElementById('code').innerHTML = a;
+                 }
+               </script>
+                <a onclick="pcode()" href=# style="font-size:20px;color:white;border-radius:5px;font-weight:bold;background:blue;padding:7px;">Check</a> </p>
+                <p id=pcode style="opacity:0;transition:.4s;position:absolute;">delievery at pincode <a id=code style="color:#26AE4C;">481331</a> available in 4 days</p>
+              <p style="margin-top:35px;">Sold by <span style="color:blue;" id=pr_seller>Cloudtail Retail Private Ltd</span> (4.5 out of 5 | 12,451 ratings) and <span style="color:blue;">Fulfilled by J&K</span>.</p>
+              <br>
+              <ul id=des-lists>
+                <li>Specially handcrafted clothing for the perfect look and comfort for the festive season</li>
+                <li>Premium Indian ethnic, festive and party wear for kids designed by AJ Dezines.</li>
+                <li>Fabric Details :- Cotton Blend</li>
+                <li>For viewing our complete store of Ethnic and Party Wear, Please click on "AJ DEZINES" in Blue above product name.</li>
+                <li>Wearability- festive, party, ceremony, special occasion, wedding, diwali, Navratri, dussehra, marriages, pooja, birthday gift, christmas, onam, ganesha etc</li>
+              </ul>
+
+        </div>
+      </div>
+
+      <div class="buy_add">
+        <a href="payment.html"><button class=buy type=button name="Buy_Now" style="background:#FA842E;cursor:pointer;">BUY NOW</button></a>
+        <button onclick="abc('pr_name','product52/first.jpg','pr_price','pr_saving','pr_seller')" style="cursor:pointer;" class=buy type=button name="Add_Cart">ADD TO CART</button>
+      </div>
+      <div class="des-rem">
+        <h2>Product Specification</h2>
+        <table class=product-table cellspacing=0px>
+          <tr>
+            <th>Brand</th>
+            <td>AJ DEZINES</td>
+          </tr>
+          <tr>
+            <th>Size Availables</th>
+            <td>20,25,30</td>
+          </tr>
+          <tr>
+            <th>Guarantee</th>
+            <td>1 Year /Terms and Condition applied</td>
+          </tr>
+          <tr>
+            <th>Site</th>
+            <td>www.AJDEZINES.com</td>
+          </tr>
+
+
+        </table>
+      </div>
+      <div class="adds" title="this is an Advertisement By J&K ">
+        <div class="ad1">
+        <p>  Ads By Google</p>
+        </div>
+        <div class="ad2">
+          <img src="adds-main/ad3.jpg" alt="">
+        </div>
+        <div class="ad3">
+          <img src="adds-main/ad1.jpg" alt="">
+        </div>
+        <div class="ad4">
+          <img src="adds-main/ad5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <style media="screen">
+    .carts
+    {
+      height:400px;
+      background:#EEF0F6;
+      display: none;
+    }
+    .div1
+    {
+      width:800px;
+      height:300px;
+      background: white;
+      box-shadow:0 0 1px grey;
+      margin:0px 0 0 65px;
+}
+.div3
+{
+  width:400px;
+  height:300px;
+  background: white;
+  box-shadow:0 0 1px grey;
+  margin:-230px 0 0 890px;
+
+}
+#final_img
+{
+  width:130px;
+  position:absolute;
+  margin:-215px 0 0 80px;
+}
+#final_name
+{
+  position: absolute;
+  margin:-200px 0 0 300px;
+  width:500px;
+}
+#final_name2
+{
+  position: absolute;
+  margin:-160px 0 0 300px;
+  width:500px;
+  font-size: 12px;
+  color:grey;
+}
+    </style>
+    <div class="carts" id=cart123>
+      <div style="height:40px;">
+
+      </div>
+      <div class="div1">
+      </div>
+      <script type="text/javascript">
+        function incr()
+        {
+            var a = document.getElementById('no').value;
+            var b = parseInt(document.getElementById('pr_price').innerHTML);
+            var c = parseInt(document.getElementById('del').innerHTML);
+            a++;
+            document.getElementById('del').innerHTML = "40";
+            document.getElementById('no').value = a;
+            document.getElementById('qty').innerHTML = a;
+            document.getElementById('pr').innerHTML = a*b;
+            document.getElementById('pr_f').innerHTML = (a*b)+c;
+        }
+        function decr()
+        {
+          var a = document.getElementById('no').value;
+
+          var b = parseInt(document.getElementById('pr_price').innerHTML);
+
+          var c = parseInt(document.getElementById('del').innerHTML);
+          a--;
+          if(a<1)
+          {
+            a=0;
+            c=0;
+            document.getElementById('del').innerHTML = 0;
+          }
+          document.getElementById('no').value = a;
+          document.getElementById('qty').innerHTML = a;
+
+          document.getElementById('pr').innerHTML = a*b;
+
+          document.getElementById('pr_f').innerHTML = (a*b)+c;
+        }
+        function fnc()
+        {
+          var a = document.getElementById('no').value;
+          var b = parseInt(document.getElementById('pr_price').innerHTML);
+          var c = parseInt(document.getElementById('del').innerHTML);
+          document.getElementById('del').innerHTML = "40";
+          document.getElementById('no').value = a;
+          document.getElementById('qty').innerHTML = a;
+          document.getElementById('pr').innerHTML = a*b;
+          document.getElementById('pr_f').innerHTML = (a*b)+c;
+        }
+      </script>
+      <div class="div2">
+        <img id=final_img src="product1/first.jpg" alt="">
+        <p id='final_name'>Name of the produasdhk spaio khdsa asoidh osdkhjasdf o oisu sadou pfd pousdtsaldiuja sdkujhsad</p>
+        <p id=final_name2>Name of the produasdhk spaio khdsa asoidh osdkhjasdf o oisu sadou pfd pousdtsaldiuja sdkujhsad</p>
+        <p style="position:absolute;margin:-120px 0 0 300px;">Sold By : <a id=final_seller>Seller</a></p>
+        <p style="position:absolute;font-family:'Bahnschrift Light';font-size:22px;margin:-90px 0 0 300px;">₹<a style="font-family:Arial;" id=final_price>000</a></p>
+          <p style="position:absolute;font-family:'Bahnschrift Light';font-size:18px;margin:-87px 0 0 400px;">Total Savings : ₹<a style="font-family:Arial;color:red;" id=final_saving>00</a></p>
+        <button onclick="decr()" style="cursor:pointer;outline:none;font-size:28px;position:absolute;border:1px solid #B6C0C0;border-radius:20px;padding:0px 11px 0px 11px;background: #F5F5F5;margin:-44px 0 0 270px;" href="#">-</button>
+        <input onkeypress="fnc()" id=no style="outline:none;padding-left:10px;width:20px;height:25px;position:absolute;margin:-40px 0 0 320px;" type="text" name="" value="">
+        <button onclick="incr()" style="cursor:pointer;outline:none;font-size:28px;position:absolute;border:1px solid #B6C0C0;border-radius:20px;padding:0px 8px 0px 8px;background: #F5F5F5;margin:-44px 0 0 370px;" href="#">+</button>
+        <p style="position:absolute;margin:-30px 0 0 550px;">delievery at : <a id=final_pcode></a> in 4 days</p>
+        <a href="payment.html" style="cursor:pointer;background:#FC5F09;width:115px;padding:15px 45px 15px 70px;margin:10px 0 0 350px;position:absolute;border-radius:3px;color:white;font-family:arial;font-size:15px;font-weight:bolder;">CHECKOUT</a>
+          <hr style="width:780px;margin:-70px 00 0 72px;">
+      </div>
+      <div class="div3">
+        <p style="position:absolute;color:grey;font-size:15px;font-weight:bold;margin:12px 0 0 140px;">PRICE DETAILS</p>
+        <hr style="width:395px;margin:40px 0 0 1px;position:absolute;">
+        <p style="position:absolute;margin:80px 0 0 20px;">Price (<a id=qty>1</a> item(s))</p>
+        <p style="position:absolute;margin:160px 0 0 20px;">Delievery Charge</p>
+        <p style="position:absolute;margin:80px 0 0 280px;">₹<a id=pr></a> </p>
+        <p style="position:absolute;margin:160px 0 0 280px;" >₹<a id=del>40</a></p>
+        <hr style="width:395px;margin:230px 0 0 1px;position:absolute;">
+        <p style="position:absolute;margin:250px 0 0 20px;">Total Amount</p>
+        <p style="position:absolute;margin:250px 0 0 280px;"> ₹<a id=pr_f>495</a> </p>
+      </div>
+    </div>
+    <script type="text/javascript">
+    function abc(a,b,c,d,e)
+    {
+      var i = document.getElementById('pincode').value;
+      if(i=="")
+      {
+        alert("Please Enter the pincode first");
+        document.getElementById('pincode').style.borderColor = "red";
+        return false;
+      }
+      else if(i.length<6)
+      {
+        alert("please enter a valid 6 digit pincode");
+        return false;
+      }
+      else {
+      document.getElementById('div_mains').style.display='none';
+      document.getElementById('cart123').style.display="block";
+      var fname = document.getElementById(a).innerHTML;
+      var fprice = parseInt(document.getElementById(c).innerHTML);
+      var f_saving = parseInt(document.getElementById(d).innerHTML);
+      var f_seller = document.getElementById(e).innerHTML;
+      document.getElementById('final_name').innerHTML = fname;
+      document.getElementById('final_name2').innerHTML = fname;
+      document.getElementById('final_price').innerHTML = fprice;
+      document.getElementById('final_seller').innerHTML = f_seller;
+      document.getElementById('final_saving').innerHTML = f_saving;
+      document.getElementById('pr_f').innerHTML = fprice+40;
+      document.getElementById('pr').innerHTML  = fprice;
+      var img = document.getElementById('final_img').src = b;
+      var q = document.getElementById('pincode').value;
+      document.getElementById('final_pcode').innerHTML =q;
+        return true;
+    }
+    }
+    </script>
+	<div class="footer1" >
+ 
+      <div class="lists">
+        <ul>
+          <li class=mainl><h2>Get to Know us</h2>
+          <ul class="list1">
+            <li>  <a style="text-decoration:none;" href="#">About us</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Press Release</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Our Services</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">NGOs Run By J&K</a> </li>
+          </ul></li>
+        <li class=mainl>  <h2>Connect with us</h2>
+          <ul class="list2">
+            <li id=facebook>  <a style="text-decoration:none;" href="https://www.facebook.com/"><i class="fa fa-facebook-f"> </i>&nbsp; Facebook </a></li>
+            <li id=twitter>  <a style="text-decoration:none;" href="https://twitter.com/"><i class="fa fa-twitter"></i>&nbsp; twitter</a></li>
+            <li id=insta>  <a style="text-decoration:none;" href="https://www.instagram.com/"><i class="fa fa-instagram"></i>&nbsp; Instagram </a> </li>
+            <li id=google>  <a style="text-decoration:none;" href="https://plus.google.com/u/"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></li>
+            <li id=youtube>  <a style="text-decoration:none;" href="https://www.youtube.com/">
+              <i class="fa fa-youtube"></i>&nbsp; Youtube </a></li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h4>Payment Methods</h4>
+          <ul class="list3">
+            <li>  <a style="text-decoration:none;" href="#">Credit card &nbsp;<i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Debit card &nbsp; <i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Net Banking</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Mobile wallets</a> </li>
+            <li>
+              <ul>
+                <li> <a style="text-decoration:none;" href="https://www.visa.co.in/pay-with-visa/find-a-card/debit-cards.html"><img style="align:left;" src="cards-logo.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://www.phonepe.com/en/"><img id=phonepe src="phonepe.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://tez.google.com/"><img id=tez src="tez.png" height=30px></a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h2>Let us help You</h2>
+          <ul class="list4">
+            <li>  <a style="text-decoration:none;" href="#">Your Account</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Return Center</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">100% guarenteed Returns</a> </li>
+            <li>  <a style="text-decoration:none;" href="#"><i class="fa fa-question-circle"></i>&nbsp;Help</a> </li>
+          </ul>
+        </li>
+</ul>
+      </div>
+      <div style="clear:both;padding-top:40px;width:95%;margin-left:30px;" class="hr">
+<hr style="display:block;height:1px;border:none;background:grey;" >
+      </div>
+      <table class=table-last align=center cellspacing=0px cellpadding=15px border=1px>
+        <tr>
+          <td>Track Your Orders <img id=track src="trackers.png" height="50" align=middle></td>
+          <td>Easy and Fast Returns <img id=return src="returns.png" height="50" align=middle></td>
+          <td>Online Cancellations <img id=cancellation src="cancellation.png" height="50" align=middle></td>
+        </tr>
+      </table>
+      <h3 id=partners>Our Business Partners</h3>
+      <div class="partners">
+
+<ul>
+  <li> <a href="https://www.flipkart.com"><img src="partners/flipkart.png"></a> </li>
+  <li> <a href="https://www.amazon.in"><img src="partners/amazon.png"></a> </li>
+  <li> <a href="https://www.hp.com"><img src="partners/hp.jpg"></a> </li>
+  <li> <a href="http://www.spacex.com"><img src="partners/spacex.png"></a> </li>
+  <li> <a href="https://www.microsoft.com"><img src="partners/microsoft.png"></a> </li>
+  <li> <a href="https://www.alibaba.com"><img src="partners/alibaba.jpg"></a> </li>
+  <li> <a href="https://www.paypal.com/us/home"><img src="partners/paypal.png"></a> </li>
+</ul>
+      </div>
+     <p style="margin-left:40%;color:black;"> Copyright &copy; 2018 J & K All Rights Reserved.<p>
+    </div>
+
+</body>
+</html>

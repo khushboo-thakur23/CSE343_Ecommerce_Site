@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>
+J&K</title>
+<link rel="shortcut icon" href="user.png" type="image/png" style="border-radius:10px;">
+<link rel="stylesheet" href="index.css"><div class="grid-container">
+		<div class="frame1">
+		</div>
+		
+		<div class="topnav">
+		  <a href="index.html"><i class="fa fa-home" style="font-size: 24px; margin-left:0px;color:black;"></i> Home</a>
+		  <a href="shop.html" ><i class="fa fa-shopping-bag" style="font-size:22px; margin-left:0px;color:black;"></i> Shop</a>
+		  <a href="about.html"><i class="fa fa-address-book" style="font-size: 22px; margin-left:0px;color:black;"></i> About us</a>
+		  <a href="privacy.html"><i class="fa fa-lock" style="font-size: 24px; margin-left:0px;color:black;"></i> Privacy policy</a>
+		  <a href="contact.html" class="active1"><i class="fa fa-phone" style="font-size: 22px; margin-left:0px;color:black;"></i> Contact Us</a>
+		  <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size: 25px; margin-left:0px;color:black;"></i> Cart</a>
+		  <a href="faqs.html"><i class="fa fa-question" style="font-size: 22px; margin-left:0px;color:black;"></i> FAQs</a>
+		  
+		</div>
+
+		<div class="frame2" align="right">
+
+		<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-telegram" href="https://t.me/"><i class="fa fa-telegram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		 <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/"><i class="fa fa-linkedin" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-snapchat" href="https://www.snapchat.com/add/"><i class="fa fa-snapchat" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/"><i class="fa fa-twitter" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+		
+		<br>
+		<i class="fa fa-phone" style="font-size: 19px; margin: 3px; color:black;"><font style="font-family:verdana">Helpline No:180-0124-3234-32</font></i>
+
+		<br>
+		<a href="#"><i class="fa fa-envelope" style="font-size: 19px; margin: 3px;color:black;"><font style="font-family:verdana">khushboo2020@jk.com</font></i></a>
+		
+		
+		<script src="https://use.fontawesome.com/5f877ec309.js"></script>
+		</div>
+	</div>
+	<style media="screen">
+  .container
+{
+  width: 100%;
+  background: url("contactimg.jpg");
+
+}
+
+     .t1,#country, textarea {
+  width: 80%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 35px;
+  resize: vertical;
+  box-shadow: 0 0 10px blue;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tx
+{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: verdana;
+  color:white;
+  margin-left: 35px;
+}
+input[type=submit] {
+  background-color: #071468;
+  font-size: 18px;
+  border: 1px solid white;
+}
+input[type=submit]:hover {
+  background-color: white;
+  color: #071468;
+  border: 1px solid #071468;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.bc
+{
+  width:400px;
+  height: 500px;
+  background: #071468;
+  margin-left: 35%;
+  opacity: .8;
+  border-radius: 10px;
+}
+    </style>
+	<script>
+	function abc()
+	{
+	var i = document.getElementById('fname').value;
+	var i1 = document.getElementById('email').value;
+	var i2 = document.getElementById('country').value;
+	var i3 = document.getElementById('subject').value;
+	
+      if(i=="")
+      {
+        alert("Please Enter the Your name.");
+        return false;
+      }
+	  else if(i1=="")
+      {
+        alert("Please Enter the email.");
+        return false;
+      }
+	  else if(i2=="")
+      {
+        alert("Please Select your Country.");
+        return false;
+      }
+	  else if(i3=="")
+      {
+        alert("Please Write the query.");
+        return false;
+      }
+	  else{
+	  alert("Your Query has been submitted.");
+	  window.open("index.html");
+	  return true;
+	  }
+	
+	}
+	</script>
+    </head>
+    <div class="container">
+      <div class="bc">
+      <form action="">
+
+        <label for="fname" class=tx>Name</label> <br>
+        <input type="text" class=t1 id="fname" name="firstname" placeholder="Your name..">
+<br>
+        <label for="email" class=tx>Email</label> <br>
+        <input type="email" class=t1 id="email" name="email" placeholder="Email">
+<br>
+        <label for="country" class=tx>Country</label> <br>
+        <select id="country" name="country">
+          <option value="" selected>Select the Country</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="India">India</option>
+        </select>
+        <br>
+        <label for="Product Name" class=tx>Product</label><br>
+        <input class=t1 type="text" name="product_name" placeholder="Specify the name of the product">
+<br>
+        <label for="subject" class=tx>Query</label> <br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+<br>
+ <button onclick="abc()"  class=tx type="submit" style="background:black;" name="Add_Cart">Submit</button>
+      
+
+      </form>
+    </div>
+    </div>
+    </div>
+	<div class="footer1" >
+	
+ 
+      <div class="lists">
+        <ul>
+          <li class=mainl><h2>Get to Know us</h2>
+          <ul class="list1">
+            <li>  <a style="text-decoration:none;" href="#">About us</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Press Release</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Our Services</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">NGOs Run By J&K</a> </li>
+          </ul></li>
+        <li class=mainl>  <h2>Connect with us</h2>
+          <ul class="list2">
+            <li id=facebook>  <a style="text-decoration:none;" href="https://www.facebook.com/"><i class="fa fa-facebook-f"> </i>&nbsp; Facebook </a></li>
+            <li id=twitter>  <a style="text-decoration:none;" href="https://twitter.com/"><i class="fa fa-twitter"></i>&nbsp; twitter</a></li>
+            <li id=insta>  <a style="text-decoration:none;" href="https://www.instagram.com/"><i class="fa fa-instagram"></i>&nbsp; Instagram </a> </li>
+            <li id=google>  <a style="text-decoration:none;" href="https://plus.google.com/u/"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></li>
+            <li id=youtube>  <a style="text-decoration:none;" href="https://www.youtube.com/">
+              <i class="fa fa-youtube"></i>&nbsp; Youtube </a></li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h4>Payment Methods</h4>
+          <ul class="list3">
+            <li>  <a style="text-decoration:none;" href="#">Credit card &nbsp;<i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Debit card &nbsp; <i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Net Banking</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Mobile wallets</a> </li>
+            <li>
+              <ul>
+                <li> <a style="text-decoration:none;" href="https://www.visa.co.in/pay-with-visa/find-a-card/debit-cards.html"><img style="align:left;" src="cards-logo.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://www.phonepe.com/en/"><img id=phonepe src="phonepe.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://tez.google.com/"><img id=tez src="tez.png" height=30px></a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h2>Let us help You</h2>
+          <ul class="list4">
+            <li>  <a style="text-decoration:none;" href="#">Your Account</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Return Center</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">100% guarenteed Returns</a> </li>
+            <li>  <a style="text-decoration:none;" href="#"><i class="fa fa-question-circle"></i>&nbsp;Help</a> </li>
+          </ul>
+        </li>
+</ul>
+      </div>
+      <div style="clear:both;padding-top:40px;width:95%;margin-left:30px;" class="hr">
+<hr style="display:block;height:1px;border:none;background:grey;" >
+      </div>
+      <table class=table-last align=center cellspacing=0px cellpadding=15px border=1px>
+        <tr>
+          <td>Track Your Orders <img id=track src="trackers.png" height="50" align=middle></td>
+          <td>Easy and Fast Returns <img id=return src="returns.png" height="50" align=middle></td>
+          <td>Online Cancellations <img id=cancellation src="cancellation.png" height="50" align=middle></td>
+        </tr>
+      </table>
+      <h3 id=partners>Our Business Partners</h3>
+      <div class="partners">
+
+<ul>
+  <li> <a href="https://www.flipkart.com"><img src="partners/flipkart.png"></a> </li>
+  <li> <a href="https://www.amazon.in"><img src="partners/amazon.png"></a> </li>
+  <li> <a href="https://www.hp.com"><img src="partners/hp.jpg"></a> </li>
+  <li> <a href="http://www.spacex.com"><img src="partners/spacex.png"></a> </li>
+  <li> <a href="https://www.microsoft.com"><img src="partners/microsoft.png"></a> </li>
+  <li> <a href="https://www.alibaba.com"><img src="partners/alibaba.jpg"></a> </li>
+  <li> <a href="https://www.paypal.com/us/home"><img src="partners/paypal.png"></a> </li>
+</ul>
+      </div>
+     <p style="margin-left:40%;color:black;"> Copyright &copy; 2018 J & K All Rights Reserved.<p>
+    </div>
+
+</body>
+</html>
+
