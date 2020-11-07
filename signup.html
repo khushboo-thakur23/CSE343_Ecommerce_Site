@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>
+J&K</title>
+<link rel="shortcut icon" href="user.png" type="image/png" style="border-radius:10px;">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet"href="sign_up.css">
+	<script>
+	function abc()
+	{
+	var i = document.getElementById('fname').value;
+	var i1 = document.getElementById('lname').value;
+	var i2 = document.getElementById('email').value;
+	var i3 = document.getElementById('uname').value;
+	var i4 = document.getElementById('pass').value;
+	var i5 = document.getElementById('rpass').value;
+	
+      if(i=="")
+      {
+        alert("Please Enter Your name.");
+        return false;
+      }
+	  else if(i1=="")
+      {
+        alert("Please Enter your last name.");
+        return false;
+      }
+	  else if(i2=="")
+      {
+        alert("Please Select your email.");
+        return false;
+      }
+	  else if(i3=="")
+      {
+        alert("Please Write the username.");
+        return false;
+      }
+	  else if(i4=="")
+      {
+        alert("Please Write the password.");
+        return false;
+      }
+	  else if(i5=="")
+      {
+        alert("Please retype the password");
+        return false;
+      }
+	  else if(i4!==i5)
+      {
+        alert("Password does not match.");
+        return false;
+      }
+	  else{
+	  alert("Signup Successful. Please Login.");
+	  window.open("index.html");
+	  return true;
+	  }
+	
+	}
+	</script>
+		
+		</head>
+<div class="grid-container">
+		<div class="frame1">
+		</div>
+		
+		<div class="topnav">
+		  <a href="index.html" ><i class="fa fa-home" style="font-size: 24px; margin-left:0px;color:black;"></i> Home</a>
+		  <a href="shop.html" ><i class="fa fa-shopping-bag" style="font-size:22px; margin-left:0px;color:black;"></i> Shop</a>
+		  <a href="about.html"><i class="fa fa-address-book" style="font-size: 22px; margin-left:0px;color:black;"></i> About us</a>
+		  <a href="privacy.html"><i class="fa fa-lock" style="font-size: 24px; margin-left:0px;color:black;"></i> Privacy policy</a>
+		  <a href="contact.html"><i class="fa fa-phone" style="font-size: 22px; margin-left:0px;color:black;"></i> Contact Us</a>
+		  <a href="cart.html" class="active1"><i class="fa fa-shopping-cart" style="font-size: 25px; margin-left:0px;color:black;"></i> Cart</a>
+		  <a href="faqs.html"><i class="fa fa-question" style="font-size: 22px; margin-left:0px;color:black;"></i> FAQs</a>
+		  
+		</div>
+
+		<div class="frame2" align="right">
+
+		<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-telegram" href="https://t.me/"><i class="fa fa-telegram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		 <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/"><i class="fa fa-linkedin" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-snapchat" href="https://www.snapchat.com/add/"><i class="fa fa-snapchat" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/"><i class="fa fa-twitter" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+		
+		<br>
+		<i class="fa fa-phone" style="font-size: 19px; margin: 3px; color:black;"><font style="font-family:verdana">Helpline No:180-0124-3234-32</font></i>
+
+		<br>
+		<a href="#"><i class="fa fa-envelope" style="font-size: 19px; margin: 3px;color:black;"><font style="font-family:verdana">khushboo2020@jk.com</font></i></a>
+		
+		
+		<script src="https://use.fontawesome.com/5f877ec309.js"></script>
+		</div>
+	</div>
+	<div class="wrap">
+        <h1>Sign Up</h1><BR>
+        <form action="">
+        <input id="fname" class="inp1" type="text"placeholder="FirstName:"required>
+            <input id="lname" class="inp1" type="text"placeholder="LastName:"required>
+            <input id="email" class="inp1" type="text"placeholder="Email:"required>
+            <input id="uname" class="inp1" type="text"placeholder="Username:"required>
+            <input id="pass" class="inp1" type="password"placeholder="Passwod:"required>
+            <input id="rpass" class="inp1" type="password"placeholder="Re-enter Password:"required><center>
+			<input class="imp3" type="button" onclick="abc()" name="btn" value="SignUp"><BR><BR>
+        </form>
+		<a href="index.html">Go Back</a></center>
+		</div>
+	
+	<div class="footer1" >
+	
+ 
+      <div class="lists">
+        <ul>
+          <li class=mainl><h2>Get to Know us</h2>
+          <ul class="list1">
+            <li>  <a style="text-decoration:none;" href="#">About us</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Press Release</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Our Services</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">NGOs Run By J&K</a> </li>
+          </ul></li>
+        <li class=mainl>  <h2>Connect with us</h2>
+          <ul class="list2">
+            <li id=facebook>  <a style="text-decoration:none;" href="https://www.facebook.com/"><i class="fa fa-facebook-f"> </i>&nbsp; Facebook </a></li>
+            <li id=twitter>  <a style="text-decoration:none;" href="https://twitter.com/"><i class="fa fa-twitter"></i>&nbsp; twitter</a></li>
+            <li id=insta>  <a style="text-decoration:none;" href="https://www.instagram.com/"><i class="fa fa-instagram"></i>&nbsp; Instagram </a> </li>
+            <li id=google>  <a style="text-decoration:none;" href="https://plus.google.com/u/"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></li>
+            <li id=youtube>  <a style="text-decoration:none;" href="https://www.youtube.com/">
+              <i class="fa fa-youtube"></i>&nbsp; Youtube </a></li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h4>Payment Methods</h4>
+          <ul class="list3">
+            <li>  <a style="text-decoration:none;" href="#">Credit card &nbsp;<i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Debit card &nbsp; <i class="fa fa-credit-card"></i></a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Net Banking</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Mobile wallets</a> </li>
+            <li>
+              <ul>
+                <li> <a style="text-decoration:none;" href="https://www.visa.co.in/pay-with-visa/find-a-card/debit-cards.html"><img style="align:left;" src="cards-logo.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://www.phonepe.com/en/"><img id=phonepe src="phonepe.png" height=30px></a> </li>
+                <li> <a style="text-decoration:none;" href="https://tez.google.com/"><img id=tez src="tez.png" height=30px></a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class=mainl>
+          <h2>Let us help You</h2>
+          <ul class="list4">
+            <li>  <a style="text-decoration:none;" href="#">Your Account</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">Return Center</a> </li>
+            <li>  <a style="text-decoration:none;" href="#">100% guarenteed Returns</a> </li>
+            <li>  <a style="text-decoration:none;" href="#"><i class="fa fa-question-circle"></i>&nbsp;Help</a> </li>
+          </ul>
+        </li>
+</ul>
+      </div>
+      <div style="clear:both;padding-top:40px;width:95%;margin-left:30px;" class="hr">
+<hr style="display:block;height:1px;border:none;background:grey;" >
+      </div>
+      <table class=table-last align=center cellspacing=0px cellpadding=15px border=1px>
+        <tr>
+          <td>Track Your Orders <img id=track src="trackers.png" height="50" align=middle></td>
+          <td>Easy and Fast Returns <img id=return src="returns.png" height="50" align=middle></td>
+          <td>Online Cancellations <img id=cancellation src="cancellation.png" height="50" align=middle></td>
+        </tr>
+      </table>
+      <h3 id=partners>Our Business Partners</h3>
+      <div class="partners">
+
+<ul>
+  <li> <a href="https://www.flipkart.com"><img src="partners/flipkart.png"></a> </li>
+  <li> <a href="https://www.amazon.in"><img src="partners/amazon.png"></a> </li>
+  <li> <a href="https://www.hp.com"><img src="partners/hp.jpg"></a> </li>
+  <li> <a href="http://www.spacex.com"><img src="partners/spacex.png"></a> </li>
+  <li> <a href="https://www.microsoft.com"><img src="partners/microsoft.png"></a> </li>
+  <li> <a href="https://www.alibaba.com"><img src="partners/alibaba.jpg"></a> </li>
+  <li> <a href="https://www.paypal.com/us/home"><img src="partners/paypal.png"></a> </li>
+</ul>
+      </div>
+     <p style="margin-left:40%;color:black;"> Copyright &copy; 2018 J & K All Rights Reserved.<p>
+    </div>
+		</body>
+</html>

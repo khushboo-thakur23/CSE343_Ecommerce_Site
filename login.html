@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>
+J&K</title>
+<link rel="shortcut icon" href="user.png" type="image/png" style="border-radius:10px;">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+<div class="grid-container">
+		<div class="frame1">
+		</div>
+		
+		<div class="topnav">
+		  <a href="index.html" class="active1"><i class="fa fa-home" style="font-size: 24px; margin-left:0px;color:black;"></i> Home</a>
+		  <a href="shop.html" ><i class="fa fa-shopping-bag" style="font-size:22px; margin-left:0px;color:black;"></i> Shop</a>
+		  <a href="about.html"><i class="fa fa-address-book" style="font-size: 22px; margin-left:0px;color:black;"></i> About us</a>
+		  <a href="privacy.html"><i class="fa fa-lock" style="font-size: 24px; margin-left:0px;color:black;"></i> Privacy policy</a>
+		  <a href="contact.html"><i class="fa fa-phone" style="font-size: 22px; margin-left:0px;color:black;"></i> Contact Us</a>
+		  <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size: 25px; margin-left:0px;color:black;"></i> Cart</a>
+		  <a href="faqs.html"><i class="fa fa-question" style="font-size: 22px; margin-left:0px;color:black;"></i> FAQs</a>
+		  
+		</div>
+
+		<div class="frame2" align="right">
+
+		<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-telegram" href="https://t.me/"><i class="fa fa-telegram" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		 <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/"><i class="fa fa-linkedin" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-snapchat" href="https://www.snapchat.com/add/"><i class="fa fa-snapchat" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/"><i class="fa fa-twitter" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+
+		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 26px; margin: 3px;color:black;"></i></a>
+		
+		<br>
+		<i class="fa fa-phone" style="font-size: 19px; margin: 3px; color:black;"><font style="font-family:verdana">Helpline No:180-0124-3234-32</font></i>
+
+		<br>
+		<a href="#"><i class="fa fa-envelope" style="font-size: 19px; margin: 3px;color:black;"><font style="font-family:verdana">khushboo2020@jk.com</font></i></a>
+		
+		
+		<script src="https://use.fontawesome.com/5f877ec309.js"></script>
+		</div>
+	</div>
+	<script>
+	function ch()
+	{
+	var i = document.getElementById('name').value;
+	var i1 = document.getElementById('password').value;
+	
+      if(i=="")
+      {
+        alert("Please Enter the Your name.");
+        return false;
+      }
+	  else if(i1=="")
+      {
+        alert("Please Enter the Password.");
+        return false;
+      }
+	  
+	  else{
+	  
+	 alert("Login Successful.");
+	  window.open("shop.html");
+	  return true;
+	  }
+	
+	}
+	</script>
+	</head>
+	<body>
+
+    <div class="loginbox">
+  
+<img src="user1.png" class="user"><br><br><br><br>
+    <br><br><h1><center>LOGIN</center></h1><br><br><BR><BR>
+    <form action="">
+        <p>Username</p>
+        <input id="name" type="text" name="txt1"placeholder="Enter username"><br><br><br>
+        <p>Password</p>
+        <input id="password" type="password" name="txt2"placeholder="Enter password" ><BR><BR><BR><BR>
+		
+        <button class="btn" type="button" onclick="ch()" name="btn" value="">Login</button><BR><BR>
+        <a href="">forgot your password?</a><br>
+        <a href="">Don't have an account?</a>
+        </form>
+    </div>
+	
+</body>
+</html>
